@@ -2,7 +2,7 @@
 
 ## 👉🏻[**Link to Gearzinote**](https://gearzinote.vercel.app/)💫 
 
-[![img](https://drive.google.com/file/d/1mRHPOJQswhpKcmmCv4D0OSWo6Ihqg7oI/view?usp=drive_link)]
+[![img](https://drive.google.com/uc?export=view&id=1mRHPOJQswhpKcmmCv4D0OSWo6Ihqg7oI)]
  
 Gearzinote เป็นแอปพลิเคชันจดบันทึกแบบ Full Stack ที่สร้างด้วยเทคโนโลยี MERN (MongoDB, Express, React JS, Node JS) แอปพลิเคชันนี้มีฟังก์ชันการทำงานที่หลากหลาย ได้แก่
 
