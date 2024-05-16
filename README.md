@@ -1,6 +1,6 @@
 # Gearzinote
 
-👉🏻[Link to Gearzinote] (gearzinote.vercel.app)💫 - แอปพลิเคชันจดบันทึกออนไลน์
+👉🏻[Link to Gearzinote] (https://gearzinote.vercel.app/)💫 - แอปพลิเคชันจดบันทึกออนไลน์
 Gearzinote เป็นแอปพลิเคชันจดบันทึกแบบ Full Stack ที่สร้างด้วยเทคโนโลยี MERN (MongoDB, Express, React JS, Node JS) แอปพลิเคชันนี้มีฟังก์ชันการทำงานที่หลากหลาย ได้แก่
 ⚡ ฟังก์ชันการทำงาน
 
