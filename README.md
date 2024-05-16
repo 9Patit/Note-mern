@@ -1,25 +1,29 @@
-# Gearzinote
+# **Gearzinote**
 
-👉🏻[Link to Gearzinote] (https://gearzinote.vercel.app/)💫 - แอปพลิเคชันจดบันทึกออนไลน์
+## 👉🏻[**Link to Gearzinote**](https://gearzinote.vercel.app/)💫 
+
+[![img](https://drive.google.com/file/d/1mRHPOJQswhpKcmmCv4D0OSWo6Ihqg7oI/view?usp=drive_link)]
+ 
 Gearzinote เป็นแอปพลิเคชันจดบันทึกแบบ Full Stack ที่สร้างด้วยเทคโนโลยี MERN (MongoDB, Express, React JS, Node JS) แอปพลิเคชันนี้มีฟังก์ชันการทำงานที่หลากหลาย ได้แก่
+
 ⚡ ฟังก์ชันการทำงาน
 
-ระบบการยืนยันตัวตน (Authentication) เพื่อเข้าสู่ระบบและสมัครสมาชิก
-สร้าง/แก้ไขบันทึกย่อ (Notes)
-ปักหมุดบันทึกสำคัญเพื่อแสดงไว้ด้านบนสุด
-ค้นหาบันทึกย่อตามคำสำคัญ
+* ระบบ (Authentication) เพื่อเข้าสู่ระบบและสมัครสมาชิก
+* สร้าง/แก้ไขบันทึกย่อ (Notes)
+* ปักหมุดบันทึกสำคัญเพื่อแสดงไว้ด้านบนสุด
+* ค้นหาบันทึกย่อตามคำสำคัญ
 
 🚀 วิธีการติดตั้งและรันแอปพลิเคชัน
 
-Clone project จาก GitHub Repository
+1. Clone project จาก GitHub Repository
 ติดตั้งแพคเกจที่จำเป็นทั้งหมดด้วยคำสั่ง
 
-👉🏻 npm install
+    * 👉🏻 npm install
 
-กำหนดค่าสำหรับการเชื่อมต่อฐานข้อมูล MongoDB
+2. กำหนดค่าสำหรับการเชื่อมต่อฐานข้อมูล MongoDB
 รันแอปพลิเคชันในโหมดพัฒนาโดยใช้คำสั่ง
 
-👉🏻 npm run dev
+    * 👉🏻 npm run dev
 
 🛡️ ความปลอดภัย
 
