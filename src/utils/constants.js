@@ -1,2 +1,2 @@
 
-export const BASE_URL = 'https://notes-mern-backend.onrender.com' 
+export const BASE_URL = 'https://notes-mern-backend-lime.vercel.app/' 
