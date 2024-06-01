@@ -24,8 +24,15 @@ const Login = () => {
       }
     };
 
-    checkServerConnection();
-  }, []);
+    // เริ่มต้นการเช็คเซิร์ฟเวอร์ทุก 1 วินาที
+    const intervalId = setInterval(checkServerConnection, 1000);
+
+    // เมื่อ loading เป็น true ให้หยุดการเช็คเซิร์ฟเวอร์
+    if (loading) clearInterval(intervalId);
+
+    // กำจัด interval เมื่อ unmount
+    return () => clearInterval(intervalId);
+  }, [loading]);
 
   const handleLogin = async (e) => {
     e.preventDefault();
@@ -73,8 +80,10 @@ const Login = () => {
         <>
           <Navbar />
           <div className="flex items-center justify-center mt-28">
-            <div className="w-96 border rounded bg-white px-7 py-10">
-              <h1>Please wait a moment</h1>
+            <div className="w-96 border rounded bg-white px-7 py-10 flex justify-center">
+              <h1>
+              กำลังเชื่อมต่อ server...  <br /> โปรดรอสักครู่.
+              </h1>
             </div>
           </div>
         </>
